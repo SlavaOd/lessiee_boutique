@@ -1,16 +1,16 @@
-var slider1 = document.querySelector('.slider')
-    slider2 = document.querySelector('.slider2')
+// var slider1 = document.querySelector('.slider')
+//     slider2 = document.querySelector('.slider2')
 
 
-let timerId = setInterval( function (){
-    slider1.style.display = 'none',
-    slider2.style.display = 'block'
-}, 8000);
+// let timerId = setInterval( function (){
+//     slider1.style.display = 'none',
+//     slider2.style.display = 'block'
+// }, 8000);
 
-let timerId2 = setInterval( function (){
-    slider2.style.display = 'none',
-    slider1.style.display = 'block'   
-}, 16000);
+// let timerId2 = setInterval( function (){
+//     slider2.style.display = 'none',
+//     slider1.style.display = 'block'   
+// }, 16000);
 
 
 var multiItemSlider = (function () {
